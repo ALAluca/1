@@ -1,0 +1,160 @@
+body {
+  color: #000;
+  height: auto;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #000;
+    background: #515839;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 40px; /* 250% */
+  }
+
+  .img1 {
+    position: relative;
+    background: url(<path-to-image>), 50% / cover no-repeat;
+    top: 150px;
+    left: 900px;
+    width: 400px;
+    height: 417px;
+    
+  }
+
+  .backg {
+    float: left;
+    position: relative;
+    top: -200px;
+    left: 100px;
+  }
+
+  .backg img{
+    position: relative;
+    width: 40px;
+    right: 0px;
+  }
+
+  .backg p {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 700px;
+  }
+
+  .img2 {
+    position: relative;
+    top: -600px;
+    left: 150px;
+    opacity: 0.1;
+  }
+
+  .work {
+    position: relative;
+    top: -100px;
+  }
+
+  .wcontent {
+    position: relative;
+    text-align: center;
+    top: -300px;
+  }
+  .wcontent p{
+    position: relative;
+    font-family: sans-serif;
+    color: #515839;
+  }
+
+  .p1 {
+    position: relative;
+    top: -150px;
+    float: left;
+  }
+
+  .p1 img{
+    position: relative;
+    top: -250px;
+    left: 700px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .p1 p{
+    position: relative;
+    margin-right: 700px;
+    font-family: sans-serif;
+    line-height: 30px
+  }
+
+  .p2 {
+    position: relative;
+    top: -250px;
+    float: right;
+  }
+
+  .p2 h2{
+    position: relative;
+    left: 700px;
+  }
+
+
+  .p2 img{
+    position: relative;
+    top: -230px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+  }
+
+  .p2 p{
+    position: relative;
+    left: 700px;
+    margin-right: 700px;
+    font-family: sans-serif;
+    line-height: 30px
+  }
+
+  .p3 {
+    position: relative;
+    top: -250px;
+    float: left;
+  }
+
+  .p3 img{
+    position: relative;
+    top: -200px;
+    left: 700px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .p3 p{
+    position: relative;
+    margin-right: 700px;
+    font-family: sans-serif;
+    line-height: 30px
+  }
+
+  .certificate {
+    position: relative;
+    float: left;
+    padding: 25px;
+    top: -300px;
+    left: 0px;
+  }
